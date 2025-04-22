@@ -24,7 +24,7 @@ namespace lesson
             {
                 throw new ArgumentNullException("Name can't be null or empty");
             }
-            this.Name = name;
+            this.name = name;
         }
     }
 }

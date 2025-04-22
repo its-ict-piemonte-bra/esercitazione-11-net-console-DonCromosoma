@@ -36,8 +36,8 @@ namespace lesson
             {
                 throw new ArgumentNullException("Title can't be null or empty");
             }
-            this.Name = name;
-            this.Title = name;
+            this.name = name;
+            this.title = name;
         }
     }
 }
